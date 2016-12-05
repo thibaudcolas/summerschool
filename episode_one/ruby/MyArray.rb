@@ -286,6 +286,9 @@ class MyArray
                 @m[cpt] = @m[cpt + 1]
                 cpt += 1
             end
+
+            @m[@n] = nil
+
             return ret
         end
 	end
